@@ -1,0 +1,12 @@
+.test-link {
+  color: teal;
+}
+.test-link:hover,
+.test-link:focus {
+  /*color: rgb(255, 0, 0, 0.5);*/
+  color: #ff0000;
+}
+
+.test-link:active {
+  color: yellow;
+}
