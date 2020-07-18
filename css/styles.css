@@ -1,3 +1,26 @@
-.link-mail .link-pic:hover {
+.header .header-homepage .header-main-info .header-mail-link:hover,
+.header .header-homepage .header-main-info .header-mail-link:focus {
   color: #2196f3;
 }
+/*Web studio*/
+.header-homepage {
+  width: 153px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+/*основний колір #212121*/
+/*другорядний колір тексту #757575*/
+/*білий #ffffff */
+/*акценти #2196F3*/
