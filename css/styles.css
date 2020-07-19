@@ -1,52 +1,86 @@
-body {
-  background-color: #fff;
-  color: #757575;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --white-color: #fff
 }
+
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
 .logo {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .list {
   list-style: none;
 }
 /* Site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.contacts,
-.mail,
-.phone {
-  color: #757575;
+.contacts
+ {
+  color: var(--title-text-color)
+}
+.mail, .phone {
+  color: var(--primary-text-color);
 }
 .contacts,
 .mail,
 .phone:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts,
 .mail,
 .phone:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*Body decor */
-.hero-title, .hero-button, .features-title, .work-title,.team-title, .name-title, .clients-title  {
-  color: #212121;
+
+.hero-title {
+  color: var(--title-text-color);
 }
-
-
-
-
+ .section-title, .name-title {
+  color: var(--title-text-color);
+}
+/* Button */
+.button {
+   color: var(--white-color);
+   background-color: var(--accent-color);
+}
+/* Footer */
+.logo1 {
+  color: var(--white-color);
+}
+.footer {
+  list-style: none;
+}
+.footer-address {
+  color: var(--white-color);
+}
+.footer-mail, .footer-phone {
+color: rgba(255, 255, 255, 0.6);
+}
+.add, .add-list {
+  list-style: none;
+  color: var(--white-color);
+}
+.mailing {
+  color: var(--white-color);
+ 
+}
 <!---->
-/*основний колір #757575 */
-/*другорядний колір тексту #212121*/
-/*білийколір осн фон, деякий текст #ffffff */
-/*акценти #2196F3*/
-/* колір фону другорядний #F5F4FA*/
-/* колір футера #2F303A*/
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
