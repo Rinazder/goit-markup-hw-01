@@ -1,26 +1,52 @@
-.header .header-homepage .header-main-info .header-mail-link:hover,
-.header .header-homepage .header-main-info .header-mail-link:focus {
+body {
+  background-color: #fff;
+  color: #757575;
+}
+.logo {
+  color: #212121;
+}
+.logo-web {
   color: #2196f3;
 }
-/*Web studio*/
-.header-homepage {
-  width: 153px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
+.list {
+  list-style: none;
+}
+/* Site-nav */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
 
-/*основний колір #212121*/
-/*другорядний колір тексту #757575*/
-/*білий #ffffff */
+.contacts,
+.mail,
+.phone {
+  color: #757575;
+}
+.contacts,
+.mail,
+.phone:hover {
+  color: #2196f3;
+}
+.contacts,
+.mail,
+.phone:focus {
+  color: #2196f3;
+}
+/*Body decor */
+.hero-title, .hero-button, .features-title, .work-title,.team-title, .name-title, .clients-title  {
+  color: #212121;
+}
+
+
+
+
+<!---->
+/*основний колір #757575 */
+/*другорядний колір тексту #212121*/
+/*білийколір осн фон, деякий текст #ffffff */
 /*акценти #2196F3*/
+/* колір фону другорядний #F5F4FA*/
+/* колір футера #2F303A*/
