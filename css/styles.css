@@ -1,11 +1,54 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #2196F3;
-  --white-color: #fff
+  --accent-color: #2196f3;
+  --white-color: #fff;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* raleway-700 - latin */
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/raleway-v17-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/raleway-v17-latin-700.woff")
+      format("woff"); /* Modern Browsers */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-regular.woff")
+      format("woff"); /* Modern Browsers */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v20-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-500.woff")
+      format("woff"); /* Modern Browsers */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v20-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v20-latin-700.woff")
+      format("woff"); /* Modern Browsers */
 }
 
 body {
+   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   background-color: var(--white-color);
   color: var(--primary-text-color);
 }
@@ -28,11 +71,11 @@ body {
   color: var(--accent-color);
 }
 
-.contacts
- {
-  color: var(--title-text-color)
+.contacts {
+  color: var(--title-text-color);
 }
-.mail, .phone {
+.mail,
+.phone {
   color: var(--primary-text-color);
 }
 .contacts,
@@ -50,13 +93,14 @@ body {
 .hero-title {
   color: var(--title-text-color);
 }
- .section-title, .name-title {
+.section-title,
+.name-title {
   color: var(--title-text-color);
 }
 /* Button */
 .button {
-   color: var(--white-color);
-   background-color: var(--accent-color);
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 /* Footer */
 .logo1 {
@@ -68,19 +112,17 @@ body {
 .footer-address {
   color: var(--white-color);
 }
-.footer-mail, .footer-phone {
-color: rgba(255, 255, 255, 0.6);
+.footer-mail,
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
 }
-.add, .add-list {
+.add,
+.add-list {
   list-style: none;
   color: var(--white-color);
 }
 .mailing {
   color: var(--white-color);
- 
 }
 <!---->
-
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
